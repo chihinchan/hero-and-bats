@@ -87,7 +87,7 @@ tiles.setTilemap(tiles.createTilemap(
             [myTiles.tile0,sprites.dungeon.greenOuterNorthWest,sprites.dungeon.greenOuterNorth0,sprites.dungeon.greenOuterNorthEast,sprites.dungeon.greenOuterWest0,sprites.dungeon.greenOuterEast1,sprites.dungeon.greenOuterEast0,sprites.dungeon.greenOuterWest1,sprites.dungeon.greenOuterSouthEast,sprites.dungeon.greenOuterSouth0,sprites.dungeon.greenOuterSouthWest,sprites.dungeon.greenOuterNorth2,sprites.dungeon.greenInnerNorthWest,sprites.dungeon.greenInnerNorthEast,sprites.dungeon.greenInnerSouthWest,sprites.dungeon.greenInnerSouthEast,sprites.dungeon.floorLight4,sprites.dungeon.chestClosed],
             TileScale.Sixteen
         ))
-game.onUpdateInterval(200, function () {
+game.onUpdateInterval(30, function () {
     enemy = sprites.create(img`
         . . f f f . . . . . . . . f f f
         . f f c c . . . . . . f c b b c
